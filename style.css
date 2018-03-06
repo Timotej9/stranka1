@@ -1,0 +1,94 @@
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+#header-wrapper
+  {
+    position: relative;
+    padding: 5em 0em 0em 0em;
+    background: url(img/header.png) no-repeat center;
+    background-size: cover;
+    min-width: 900px;
+    min-height: 350px;
+  }
+/*********************************************************************************/
+/* Body                                                                          */
+/*********************************************************************************/
+#pozadie{
+  background-image: url(img/body.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  min-height: 1400px;
+  margin: 0px;
+  padding-top: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+footer{
+      background-image: url(img/footer.png);
+      position: relative;
+      background-size: cover;
+      text-align: center;
+      padding: 5em 0em;
+      margin: auto;
+      min-width: 1000px;
+      height: 13.5px;
+     }
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+ul {
+        list-style-type: none;
+        margin-top: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li{
+        float: left;
+      }
+
+    li a{
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    li a:hover{
+      background-color: #111;
+    }
+
+/*********************************************************************************/
+/* Table                                                                         */
+/*********************************************************************************/  
+#tab1{
+    border-spacing: 55px;
+    padding-top: 880px;
+  }
+
+#tab2{
+     border-spacing: 25px;
+      }
+/*********************************************************************************/
+/* nadpi1, nadpis2                                                               */
+/*********************************************************************************/
+#nadpis1{
+  padding-left: 340px;
+  padding-top: 215px;
+}
+#nadpis2{
+  padding-left: 340px;
+}
+/*video{
+  padding-top: 800px;
+}*/
