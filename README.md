@@ -1,0 +1,2 @@
+# stranka1
+kupalisko
